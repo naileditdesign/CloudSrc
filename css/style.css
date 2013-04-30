@@ -1030,7 +1030,66 @@ table.office365Benefits tr td:first-child { font-weight: bold; color: #3399CC; }
 
 
 
+	
 
+/* -- Adam's Styles --*/
+
+.tabs { float:left; clear:left; margin:4em 0; position:relative; }
+
+.tabs .content { float:left; 
+				width:626px;
+				padding:10px;
+				margin-top:30px;
+				min-height: 400px;
+			clear:left; 
+			margin:0 0 2em 0;
+			background:#efefef;
+			 border:solid #d5d5d5;
+			border-width:1px;}
+			
+.tabs .content ul { float:left; clear:left; margin:10px 0; }
+
+.tabs .content li { background:url(../images/chev-bg.png) no-repeat 0% 25%; float:left; display:inline-block; width:45%; padding:10px 10px 10px 20px; font-weight:bold; }
+
+.tabs .content p { float:left; clear:left; }
+
+ul.idTabs { width:100%; position:absolute; top: -37px; }
+
+ul.idTabs li { float:left;  
+				height:37px; 	
+				text-align:center; 
+				
+				margin-right:2px;
+				 }
+
+ul.idTabs li a { 
+			background:url(../images/purple-tab-bg.png); 
+			min-width:100px; 
+			height:27px;
+			display:block; 
+			padding:10px 10px 0 10px;
+			-webkit-border-radius: 3px 3px 0px 0px;
+			border-radius: 3px 3px 0px 0px; 
+			color:white !important;
+			border:solid #b669e3;
+			border-width:1px 1px 0 1px;
+			}
+			
+	.tabs a:hover { text-decoration:none !important; color:#9e3cd8 !important; 
+	background:url(../images/grey-tab-bg.png);
+	
+	border:solid #d5d5d5;
+			border-width:1px 1px 0 1px;}		
+			
+	
+
+		ul.idTabs li a.selected { 
+			color:#9e3cd8 !important;
+				border:solid #d5d5d5;
+			border-width:1px 1px 0 1px;
+			background:url(../images/grey-tab-bg.png);
+			
+			  }
 
 
 
@@ -1144,6 +1203,22 @@ table.office365Benefits tr td:first-child { font-weight: bold; color: #3399CC; }
 .lists h1 {  color: #619301 !important;
 			 font-size: 1.5em !important;
 			 margin: 1em 0; }
-			 
-			 											
-				  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
