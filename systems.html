@@ -1,0 +1,339 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="author" content="Websitename"><meta name="language" content="English"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"><link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="scripts/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/jquery-ui-1.9.1.custom.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/slides.min.jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            if ($('div.container div.slides div.slide').length > 1) {
+                $('.container').slides({
+                    container: 'slides',
+                    generateNextPrev: false,
+                    next: 'next',
+                    prev: 'previous',
+                    pagination: false,
+                    fadespeed: 200,
+                    slidespeed: 300,
+                    play: 15000,
+                    pause: 2500,
+                    hoverPause: false,
+                    autoHeight: false,
+                    animationComplete: function (current) {
+                        var logoCss = $(".slides").find("div.slide").slice(current - 1, current).attr("logo");
+                        $("#logo").removeClass();
+                        $("#logo").addClass(logoCss);
+                    }
+                });
+            }
+            else {
+                $('div.container div.slides div.slide').each(function (index, ui) {
+                    $(ui).show();
+                });
+
+                $("div.container a.previous, div.container a.next").hide();
+
+                var logoCss = $(".slides").find("div.slide").attr("logo");
+                $("#logo").removeClass();
+                $("#logo").addClass(logoCss);
+            }
+        });
+    </script>
+    
+<title>
+
+</title><style type="text/css"></style></head>
+<body id="body" class="hostedapps">
+    <form method="post" action="Hosted-Applications-Overview.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTA1NTgwODM2D2QWAmYPZBYCAgMPFgIeBWNsYXNzBQpob3N0ZWRhcHBzFgICAQ9kFgQCAw8PFgIeDFNlbGVjdGVkUGFnZQspbkNsb3VkU291cmNlV2ViLkxpYi5FbnVtLk5hdmlnYXRpb25QYWdlcywgQ2xvdWRTb3VyY2VXZWIsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsAmQWAgIFDw8WAh4EVGV4dAUkPHN0cm9uZz5Ib3N0ZWQgQXBwbGljYXRpb25zPC9zdHJvbmc+ZGQCBQ8PFgIeBlNsaWRlczLiAwABAAAA/////wEAAAAAAAAADAIAAABFQ2xvdWRTb3VyY2VXZWIsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBAEAAACOAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbQ2xvdWRTb3VyY2VXZWIuTGliLkVudW0uU2xpZGVUeXBlcywgQ2xvdWRTb3VyY2VXZWIsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAACRDbG91ZFNvdXJjZVdlYi5MaWIuRW51bS5TbGlkZVR5cGVzW10CAAAACAgJAwAAAAQAAAAEAAAABwMAAAAAAQAAAAQAAAAEIkNsb3VkU291cmNlV2ViLkxpYi5FbnVtLlNsaWRlVHlwZXMCAAAABfz///8iQ2xvdWRTb3VyY2VXZWIuTGliLkVudW0uU2xpZGVUeXBlcwEAAAAHdmFsdWVfXwAIAgAAAAIAAAAB+/////z///8HAAAAAfr////8////BQAAAAH5/////P///wYAAAALZBYCZg9kFg4CAQ8PFgIeB1Zpc2libGVnZGQCAw8PFgIfBGhkZAIFDw8WAh8EaGRkAgcPDxYCHwRoZGQCCQ8PFgIfBGdkZAILDw8WAh8EZ2RkAg0PDxYCHwRnZGRkIlErtN7XKWbA4cF8vyuy/bwU/yEcP3yAZScKWYnYm3U=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=rOjZ228XXhCBC92RJosqGA2&amp;t=634777296430156000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=oIHCSNZ4r-S0YxCTrBfI9io-guWc8cmtEf9d6gVEarHC5s5uaymeJcbj2u14CsADUcmytMLxKdNofzlo5rBOh4KleMRflmOmyc-d6sPhFyc1&amp;t=16ab2387" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=oIHCSNZ4r-S0YxCTrBfI9io-guWc8cmtEf9d6gVEarHC5s5uaymeJcbj2u14CsADVYrSX3L1g1Rjd1Ch1SzPkVGtR4U--p9YOsfRo32eI3_c0C00MXz6pN_xFaHL2pjc0&amp;t=16ab2387" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFQKXmprzBwL2tLzRCAKks+jMDAK05qeSBwLMhOm8DwLr9dSAAwKVif6bAgLNg7vYCwKRjNhBAvee9eoLApyoj6cGAurEgfsHAvqLi5IFAoDXwssCAvufrJQIAr2+w8QFAomItX8Cmr3cowIC2s6itAUC3vDQtgsC56GAiQ2K9N3H4bmoonzanCensBUVXnKVyaPc8a8pVjv/MV8zaA==">
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sm', 'form1', ['tctl00$ContentMain$ucSignup$upanSignup','ContentMain_ucSignup_upanSignup'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div align="center" id="container">
+        <div id="wrapper">
+            <!--Header Starts Here-->
+            <div id="header">
+                <div id="logo" class="orange_cloud">
+                    <a href="/">
+                        <img src="images/logo.png" alt=""></a></div>
+                <div id="contact-info">
+                    <p>
+                        <span>e.</span> <a href="mailto:Info@CloudSource.uk.com">Info@CloudSource.uk.com</a>
+                        <strong><span>t.</span> 0844 443 8235</strong></p>
+                </div>
+                
+<div id="nav">
+    <ul>
+        <li>
+            <a id="ucNavigation_hlHome" class="home" href="/">Home</a>
+        </li>
+        <li>
+            <a id="ucNavigation_hlAbout" class="about" href="/aboutus.aspx">About</a>
+        </li>
+        <li>
+            <a id="ucNavigation_hlHostedApps" class="hosted-application" href="/Hosted-Applications-Overview.aspx"><strong>Hosted Applications</strong></a>
+        </li>
+        <li>
+            <a id="ucNavigation_hlHostedServers" class="hosted-servers" href="/SharedHosting.aspx">Hosted Servers</a>
+        </li>
+        <li>
+            <a id="ucNavigation_hlWebsiteDesign" class="design" href="/WebsiteDesign.aspx">Website design</a>
+        </li>
+        <li class="last">
+            <a id="ucNavigation_hlContact" href="/ContactUs.aspx">Contact</a>
+        </li>
+    </ul>
+</div>
+
+            </div>
+            <!--Header Ends Here-->
+            <!--Content Starts Here-->
+            <div id="content-wrap">
+  
+  <img src="images/systemsbanner.png">
+                
+    <div id="breadcrumb">
+        You are here: <span>Hosted Applications  >  Systems Integration</span>
+    </div>
+    <div id="content">
+    	<div class="system-cont">
+        <h1>
+            <span>Systems</span> <font color="#619301">Integration</font> </h1>
+            
+            <img src="images/cloudplus.png">
+            
+        <p>When you’re planning any kind of IT project it’s likely that some kind of data integration and migration will be needed.  CloudSource have partnered with Scribe to offer their customisable on-premise and cloud solutions, which can be used to easily integrate business applications such as marketing automation, ERP, eCommerce and field service with Microsoft Dynamics CRM.  Scribe Insight, an on-premise solution, and Scribe Online, a cloud-based solution, offer a range of pre-built connections and maps to jumpstart integration of your CRM system to a wide range of applications.   </p></div>
+        
+    <div class="highlight2">
+    	
+    	<h2>At CloudSource, our consultants have a wealth of experience in systems integration and data 
+migration using Scribe.  We will work with you to utilise this versatile product 
+to produce truly outstanding results.</h2>
+    	
+    </div>
+    <div class="scribe">
+ <img src="images/scribe.png"> <p>Whether you a need data migration for a single project or ongoing data synchronsation to integrate applications, CloudSource can help. As a certified and experienced Scribe partner, we’ve delivered data migration and application integration solutions that solve business problems. Scribe is the fastest, most comprehensive way to quickly and seamlessly migrate data for either single use or ongoing data synchronsation projects. </p></div>
+ 
+ <div class="scribe">
+ <img src="images/microsoft.png"><p>When you implement Microsoft Dynamics CRM it has the potential to be more than just a useful customer database.  Microsoft Dynamics CRM can drive your business forward by becoming the centre of all customer related activities.  By utilising the capabilities of Scribe, implemented by our skilled team of consultants your business can benefit fully from integration into more areas.</p></div>
+ 
+ 
+ <div class="lists">
+ <ul>
+		
+		<h1>Integrated <span>CRM Opportunities</span></h1>
+		<li>Share forecast information between Sales and Finance</li>
+		<li>Convert opportunities won to orders and invoices</li>
+		<li>Synchronize product catalogue with financial applications </li>
+		<li>Connect lead database to marketing and sales campaigns</li>
+		<li>Make payment history accessible to Sales </li>
+		<li>Provide Sales and Support with timely renewal data</li>
+		
+	</ul>
+	
+	
+	
+	 <ul>
+		
+		<h1>Integrated <span>CRM Benefits</span></h1>
+		<li>Increased conversion rates</li>
+		<li>Improved customer service </li>
+		<li>Increased contract renewal rates</li>
+		<li>Increased revenue through better targeting </li>
+		<li>Faster quote to cash process </li>
+		<li>Higher employee productivity rates</li>
+		
+	</ul>
+ 
+ 
+ </div>
+ 
+    
+ <div class="bottom-sect">
+ <img src="images/scribe2.png">
+ 
+ <h1>Why <span>Scribe?</span></h1>
+ 
+ <p>Scribe can be used to integrate virtually any application, data source or Software as a Service (SaaS) platform without complex coding or programming.  Flexible and scalable, Scribe is capable of addressing unique business needs for data migration and integration.  Coupled with the skills and experience CloudSource have in integrating business systems with Microsoft Dynamics CRM you can be assured of success.</p></div>
+	
+	
+	
+	
+	
+	
+	<div class="contact-box"><img src="images/contactg.png"></div>
+
+       
+    </div>
+    <div id="right-sidebar">
+    
+        <div class="clear">
+            <div class="request-a-call">
+                <strong>&gt;&gt; Request a Call Back</strong>Let us get back to you to discuss your requirements
+                when best suits you!
+            </div>
+            <div class="request-a-free">
+                <strong>&gt;&gt; Request a FREE Trial</strong> Would you like to try our industry leading
+                cloud services for FREE? Sign up and receive 28 days FREE trial to our cloud applications
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="singup-wrapper appoverview">
+            
+<div class="signup">
+    <div id="ContentMain_ucSignup_upanSignup">
+	
+            <h2>
+                Want to know<strong class="type1"> more? </strong>
+            </h2>
+            <p>
+                If you would like more information or have a question, please get in touch below.</p>
+            <select name="ctl00$ContentMain$ucSignup$ddlProducts" id="ContentMain_ucSignup_ddlProducts">
+		<option value="Please select product:">Please select product:</option>
+		<option value="Cloud Computing">Cloud Computing</option>
+		<option value="Consultancy">Consultancy</option>
+		<option value="Hosted Applications">Hosted Applications</option>
+		<option value="Hosted Servers">Hosted Servers</option>
+		<option value="Microsoft Dynamics CRM 2011">Microsoft Dynamics CRM 2011</option>
+		<option value="Microsoft Exchange Server 2010">Microsoft Exchange Server 2010</option>
+		<option value="Microsoft Office 365">Microsoft Office 365</option>
+		<option value="Microsoft SharePoint 2010">Microsoft SharePoint 2010</option>
+		<option value="Professional Services">Professional Services</option>
+		<option value="Support">Support</option>
+		<option value="Website Design and Development">Website Design and Development</option>
+
+	</select>
+            <input name="ctl00$ContentMain$ucSignup$tbName" type="text" value="Name:" id="ContentMain_ucSignup_tbName">
+            <input name="ctl00$ContentMain$ucSignup$tbEmail" type="text" value="Email:" id="ContentMain_ucSignup_tbEmail">
+            <textarea name="ctl00$ContentMain$ucSignup$tbMessage" rows="2" cols="20" id="ContentMain_ucSignup_tbMessage">Message:</textarea>
+            <p class="clear">
+                <input type="submit" name="ctl00$ContentMain$ucSignup$btnSend" value="" id="ContentMain_ucSignup_btnSend" class="button-send">
+                <span id="ContentMain_ucSignup_lblMessage">we aim to get back to you within 24 hours from receipt of your message</span>
+            </p>
+        
+</div>
+</div>
+
+        </div>
+    </div>
+
+            </div>
+            <!--Content Ends Here-->
+        </div>
+        <!--Footer Starts Here-->
+        <div id="footer">
+            <div id="footer-sub">
+                <div id="left">
+                    <ul>
+                        <li>
+                            <h3>
+                                Hosted Applications</h3>
+                            <a href="/DynamicsCrm.aspx">Microsoft Dynamics CRM 2011</a> 
+                            <a href="/Exchange.aspx">Microsoft Exchange Server 2010</a>
+                            <a href="/Office365.aspx">Microsoft Office 365</a> 
+                            <a href="/SharePoint.aspx">Microsoft SharePoint 2010</a>
+                            <a href="/CloudComputing.aspx">Cloud Computing</a>
+                            </li>                          
+                        <li>
+                            <h3>
+                                Hosted Servers</h3>
+                            <a href="#">Why Host with us</a> <a href="#">Our Hosted Packages</a>
+                        </li><li>
+                            <h3>
+                                More Information</h3>
+                            <a href="/AboutUs.aspx">More about us</a> <a href="#">What is Cloud Computing</a> <a href="#">How will it benefit me &amp; my business</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <img src="images/facebook-like.png" alt=""></p>
+                </div>
+                <div id="right">
+                    <p>
+                        © CloudSource 2011. All Righs reserved<br>
+                        <span>Registered in England and Wales 7263403<br>
+                            VAT Reg No. GB 992 3764 75</span></p>
+                    <p>
+                        Cloud<strong>Source</strong> Ltd Westgate House Royland Road
+                        <br>
+                        Loughborough Leicestershire LE11 2EH</p>
+                    <p class="contactinfo">
+                        <strong>t:</strong> 0844 443 8235 <strong>f:</strong> 0844 443 8241<br>
+                        <strong>e:</strong> <a href="mailto:Info@CloudSource.uk.com">Info@CloudSource.uk.com</a></p>
+                </div>
+            </div>
+        </div>
+        <!--Footer Ends Here-->
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+<script type="text/javascript">
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34887916-1']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+
+
+</body></html>
